@@ -11,7 +11,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:' + rootProject.ext.support
+    implementation 'com.android.support:appcompat-v7:' + rootProject.ext.support
 }
 
 apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
